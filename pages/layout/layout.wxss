@@ -1,0 +1,16 @@
+/* pages/layout/layout.wxss */
+.title{
+    font-size: 32rpx;
+    color:red;
+    padding: 20rpx 18rpx;
+    text-align: justify;
+    line-height: 40rpx;
+    border: 1px solid #ccc;
+
+}
+.zan-col{
+    background-color: #88f;
+}
+.col_color{
+  background-color: #ccf;
+}

@@ -1,0 +1,31 @@
+<!--pages/cell/cell.wxml-->
+<import src="/zanui/switch/index.wxml" />
+
+<view class="zan-panel">
+	<view class="zan-cell">
+	  <view class="zan-cell__icon zan-icon zan-icon-checked" style="color:#38f;"></view>
+	  <view class="zan-cell__bd">单行列表</view>
+	  <view class="zan-cell__ft">详细信息</view>
+	</view>
+</view>
+ <view class="zan-panel">
+    <view class="zan-cell">
+      <view class="zan-cell__bd">多行列表</view>
+      <view class="zan-cell__ft">详细信息</view>
+    </view>
+    <view class="zan-cell">
+      <view class="zan-cell__bd">多行列表</view>
+      <view class="zan-cell__ft">详细信息</view>
+    </view>
+    <view class="zan-cell">
+      <view class="zan-cell__bd">多行列表</view>
+      <view class="zan-cell__ft">详细信息</view>
+    </view>
+  </view>
+
+<view class="zan-cell zan-cell--switch">
+  <view class="zan-cell__bd">开关</view>
+  <view class="zan-cell__ft">
+    <template is="zan-switch" data="{{ checked }}"/>
+  </view>
+</view>

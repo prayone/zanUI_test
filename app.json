@@ -1,0 +1,38 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/dialog/dialog",
+    "pages/cell/cell",
+    "pages/card/card",
+    "pages/select/select",
+    "pages/select1/select1",
+    "pages/layout/layout"
+    
+
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#bbb",
+    "navigationBarTitleText": "ZanUI测试",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [
+     
+     
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/dialog/dialog",
+        "text": "演示"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

@@ -1,0 +1,27 @@
+
+
+<view class="big">
+    <view class="title">基础组件</view>
+	<view class="zan-panel">
+	    <view class="zan-cell zan-cell--access" bindtap='layout'>
+	      <view class="zan-cell__bd">Layout布局</view>
+	      <view class="zan-cell__ft"></view>
+	    </view>
+	    <view class="zan-cell zan-cell--access" bindtap='cell'>
+	      <view class="zan-cell__bd">cell单元格</view>
+	      <view class="zan-cell__ft"></view>
+	    </view>
+	    <view class="zan-cell zan-cell--access" bindtap='card'>
+	      <view class="zan-cell__bd">Card卡片</view>
+	      <view class="zan-cell__ft"></view>
+	    </view>
+	    <view class="zan-cell zan-cell--access" bindtap='select'>
+	      <view class="zan-cell__bd">select选择</view>
+	      <view class="zan-cell__ft"></view>
+	    </view>
+      <view class="zan-cell zan-cell--access" bindtap='select1'>
+	      <view class="zan-cell__bd">select选择1</view>
+	      <view class="zan-cell__ft"></view>
+	    </view>
+	</view>
+</view>
